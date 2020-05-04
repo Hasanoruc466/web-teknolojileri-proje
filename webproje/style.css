@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eaeaea;
+}
+
+.header {
+	background-color: #4582EC;
+	height: 100px;
+}
+
+.menu {
+	float: left;
+}
+
+.menu ul {
+	padding: 0;
+	margin: 0;
+	padding-left: 200px;
+}
+
+.menu ul li {
+	list-style-type: none;
+	float: left;
+}
+
+.menu ul li a {
+	display: block;
+	color: white;
+	padding: 40px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.header ul li a:hover {
+	color: aqua;
+}
+
+.login {
+	float: left;
+}
+
+.login ul {
+	padding: 0;
+	margin: 0;
+	padding-left: 200px;
+}
+
+.login ul li {
+	list-style-type: none;
+	float: left;
+}
+
+.login ul li a {
+	display: block;
+	color: white;
+	padding: 40px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+#ben{
+	width: 250px;
+	height: 300px;
+	border-radius: 100px;
+}
+
+.kucultme{
+	width: 50px;
+	height: 50px;
+}
+
+.kisisel-bilgiler{
+	float: left;
+	padding: 20px;
+	color: darkblue;
+}
+
+.content {
+	float: left;
+}
+
+.icerik {
+	padding-top: 20px;
+	padding-left: 400px;
+	font-size: 18px;
+}
+
+.resim {
+	padding: 10px;
+	float: left;
+	width: 250px;
+}
+
+.paragraf {
+	float: left;
+	padding-left: 10px;
+	width: 400px;
+}
+
+.clear{
+	clear: both;
+}
+
+.footer{
+	padding: 20px;
+	background-color: #4582EC;
+	padding-left: 500px;
+	color: white;
+	font-size: 20px;
+}
+.takim{
+	float: right;
+	padding: 20px;
+	color: darkblue;
+}
