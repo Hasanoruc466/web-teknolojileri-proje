@@ -1,12 +1,11 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #eaeaea;
 }
 
 .header {
 	background-color: #4582EC;
-	height: 100px;
+	height: 75px;
 }
 
 .menu {
@@ -27,7 +26,7 @@ body {
 .menu ul li a {
 	display: block;
 	color: white;
-	padding: 40px;
+	padding: 30px;
 	text-decoration: none;
 	font-size: 25px;
 }
@@ -54,26 +53,27 @@ body {
 .login ul li a {
 	display: block;
 	color: white;
-	padding: 40px;
+	padding: 30px;
 	text-decoration: none;
 	font-size: 25px;
 }
 
-#ben{
+#ben {
 	width: 250px;
 	height: 300px;
 	border-radius: 100px;
 }
 
-.kucultme{
+.kucultme {
 	width: 50px;
 	height: 50px;
 }
 
-.kisisel-bilgiler{
+.kisisel-bilgiler {
 	float: left;
 	padding: 20px;
 	color: darkblue;
+	height: 650px;
 }
 
 .content {
@@ -84,6 +84,7 @@ body {
 	padding-top: 20px;
 	padding-left: 400px;
 	font-size: 18px;
+	color: darkblue;
 }
 
 .resim {
@@ -98,19 +99,89 @@ body {
 	width: 400px;
 }
 
-.clear{
+.clear {
 	clear: both;
 }
 
-.footer{
+.footer {
 	padding: 20px;
 	background-color: #4582EC;
 	padding-left: 500px;
 	color: white;
 	font-size: 20px;
 }
-.takim{
+
+.takim {
 	float: right;
 	padding: 20px;
 	color: darkblue;
+}
+
+.giris {
+	padding-top: 20px;
+	padding-left: 400px;
+	font-size: 18px;
+}
+
+h4 {
+	margin-top: 1em;
+	color: #eee;
+	font-size: 150%;
+	font-weight: 300;
+	text-align: center;
+}
+
+.login_input {
+	display: block;
+	width: 98%;
+	height: 30px;
+	margin-top: 1.0em;
+	padding: 4px;
+}
+
+.login-box {
+	padding: 1em 1em 1em 1em;
+	margin: auto;
+	text-align: center;
+	display: block;
+	background-color: #6f92dc;
+	width: 70%;
+	height: auto;
+}
+
+.outer-box {
+	display: block;
+	background: #6f92dc;
+	border-radius: 5px;
+	width: 50%;
+	height: 20em;
+	height: auto;
+}
+
+.btn-login {
+	display: block;
+	width: 98%;
+	height: 40px;
+	margin-top: 2.0em;
+	border-radius: 4px;
+	background-color: #3366cc;
+	color: #fff;
+}
+
+.iletisim {
+	background-color: #efefef;
+	width: 250px;
+	font-weight: bold;
+}
+
+td {
+	font-weight: bold;
+	font-size: 13pt;
+}
+
+tr{
+	width: 98%;
+	height: 30px;
+	margin-top: 1.0em;
+	padding: 4px;
 }
